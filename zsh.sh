@@ -8,3 +8,6 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 
 newPlugins="plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting)"
 sed -i "s/^plugins=(=(.*)$)/$newPlugins" $HOME/.zsh
+
+cat ./dotfiles/.zshrc >> $HOME/.zshrc
+source $HOME/.zshrc

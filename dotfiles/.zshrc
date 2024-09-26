@@ -1,0 +1,5 @@
+alias rc="vi ~/.zshrc && source ~/.zshrc"'
+alias c="clear && "'
+alias cc="clear"'
+alias la="ls -oAFgh"'
+alias cla="clear && ls -oAFgh"'
