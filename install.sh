@@ -3,5 +3,5 @@
 echo "Updating system before installing packages..."
 sudo pacman -Syu --noconfirm
 
-sh ./zsh.sh
-sh ./env.sh
+sh ./installers/zsh.sh
+sh ./installers/env.sh
