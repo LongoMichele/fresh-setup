@@ -9,10 +9,10 @@ fi
 if [ -f "$pictures/bg.jpg" ]; then
     mv "$pictures/bg.jpg" "$pictures/bg.jpg.old"
 fi
-cp "../assets/bg.jpg" "$pictures"
+cp "./assets/bg.jpg" "$pictures"
 
 hyprConfig="$HOME/.config/hypr"
 if [ -d "$hyprConfig" ]; then
     mv "$hyprConfig" "$hyprConfig.old"
 fi
-cp -rv "../dotfiles/hypr" "$hyprConfig"
+cp -rv "./dotfiles/hypr" "$hyprConfig"
