@@ -1,4 +1,11 @@
 
+##########################
+#### Imported aliases ####
+##########################
+
+# Hyprland
+alias hyprconf="vim ~/.config/hypr/hyprland.conf"
+
 # Git
 alias gadd="git add ."
 alias gcommit="git commit"
