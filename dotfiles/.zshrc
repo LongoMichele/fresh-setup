@@ -1,3 +1,11 @@
+
+# Git
+alias gadd="git add ."
+alias gcommit="git commit"
+alias gpush="git push"
+alias gstash="git stash"
+
+# General
 alias rc="vi ~/.zshrc && source ~/.zshrc"
 alias c="clear && "
 alias cc="clear"
