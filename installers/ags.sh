@@ -1,6 +1,6 @@
 yay -S aylurs-gtk-shell-git
 yay -S matugen-bin
-curl -fsSL https://bun.sh/install | zsh
+curl -fsSL https://bun.sh/install | sh
 sudo ln -s "$(which bun)" /usr/bin/bun
 sudo pacman -S dart-sass fd brightnessctl swww fzf hyprpicker slurp wf-recorder swappy libdbusmenu-gtk3 gnome-bluetooth-3.0 --noconfirm
 git clone https://github.com/Aylur/dotfiles.git aylurDotfiles
